@@ -20,4 +20,4 @@ class String
   end
 end
 
-String.count_sentences("This, well, is a sentence. This is too!! And so is this, I think? Woo...")
+puts "This, well, is a sentence. This is too!! And so is this, I think? Woo...".count_sentences
