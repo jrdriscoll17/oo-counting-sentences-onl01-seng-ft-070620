@@ -19,5 +19,5 @@ class String
     puts sentences
   end
 
-  count_sentences()
+  count_sentences("This, well, is a sentence. This is too!! And so is this, I think? Woo...")
 end
