@@ -16,6 +16,7 @@ class String
 
   def count_sentences
     sentences = self.split(/[.?!]/)
+    sentences.each{|sentence| sentence.length == 0}
   end
 end
 
